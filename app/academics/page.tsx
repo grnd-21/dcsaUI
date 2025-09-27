@@ -36,9 +36,7 @@ export default function Academics() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-16 max-w-7xl mx-auto">
           <div className="flex-shrink-0 text-center md:text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold text-[#2c265c] leading-tight mb-2">
-              College
-              <br />
-              Courses
+              College Courses
             </h2>
           </div>
 
