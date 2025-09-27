@@ -25,7 +25,7 @@ export default function Academics() {
 
           <div className="relative max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-              Our Program
+              Programs We Offer
             </h2>
           </div>
         </div>
@@ -33,17 +33,16 @@ export default function Academics() {
 
       {/* College Cources */}
       <section className="py-20 pb-20 px-10 bg-gray-50 mb-3 " data-aos="fade-up" data-aos-duration="500">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-16 max-w-7xl mx-auto">
-          <div className="flex-shrink-0 text-center md:text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold text-[#2c265c] leading-tight mb-2">
-              College Courses
+        <div className="flex flex-col items-center mx-auto text-center px-4 md:px-0">
+          <div className="flex-shrink-0 text-center md:text-left w-full">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold text-[#2c265c] leading-tight pb-4 md:pb-8 md:text-center">
+              College Programs
             </h2>
           </div>
 
-          <div className="max-w-xl text-left gap-16">
-            <p className="text-lg text-[#2c265c] leading-relaxed">
-              The institution offers a comprehensive selection of college
-              courses, meticulously designed to prepare individuals for career
+          <div className="max-w-7xl w-full text-left gap-4 md:gap-16 pb-6 md:pb-10">
+            <p className="text-base sm:text-lg text-[#2c265c] leading-relaxed text-left md:text-center">
+              The institution offers a comprehensive selection of college courses, meticulously designed to prepare individuals for career
               advancement in their chosen fields. With programs covering various
               disciplines, students acquire the essential knowledge and skills
               needed to their professional goals. Explore the programs to see
@@ -253,31 +252,28 @@ export default function Academics() {
         </div>
       </section>
       {/* SENIOR HIGH SCHOOL */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto " data-aos="fade-up" data-aos-duration="500">
-          {/* Header Section */}
-          <div className="flex flex-col lg:flex-row items-center gap-12 mb-16">
-            <div className="flex-1">
-              <h2 className="text-6xl lg:text-8xl font-bold text-[#2c265c] leading-tight mb-4">
-                Senior High
-                <br />
-                Tracks
-              </h2>
-            </div>
-            <div className="flex-1">
-              <p className="text-lg text-[#2c265c] leading-relaxed">
-                The institution provides a comprehensive selection of senior
-                high school tracks, meticulously aligned with government
-                standards to facilitate students' preparation for future
-                academic and career pursuits. Each track encompasses a range of
-                disciplines, ensuring that students gain the essential knowledge
-                and skills necessary to achieve their professional aspirations.
-                We invite you to explore these tracks to understand how they can
-                support your educational and career objectives.
-              </p>
-            </div>
+      <section className="py-20 pb-20 px-10 bg-gray-50 mb-3 " data-aos="fade-up" data-aos-duration="500">
+        <div className="flex flex-col items-center mx-auto text-center px-4 md:px-0">
+          <div className="flex-shrink-0 text-center md:text-left w-full">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold text-[#2c265c] leading-tight pb-4 md:pb-8 md:text-center">
+              Senior High School Tracks
+            </h2>
           </div>
 
+          <div className="max-w-7xl w-full text-left gap-4 md:gap-16 pb-6 md:pb-10">
+            <p className="text-base sm:text-lg text-[#2c265c] leading-relaxed text-left md:text-center">
+              The institution provides a comprehensive selection of senior
+              high school tracks, meticulously aligned with government
+              standards to facilitate students' preparation for future
+              academic and career pursuits. Each track encompasses a range of
+              disciplines, ensuring that students gain the essential knowledge
+              and skills necessary to achieve their professional aspirations.
+              We invite you to explore these tracks to understand how they can
+              support your educational and career objectives.
+            </p>
+          </div>
+        </div>
+     
           {/* Tracks Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* ABM Track */}
@@ -424,7 +420,7 @@ export default function Academics() {
               </p>
             </div>
           </div>
-        </div>
+        
       </section>
 
       {/* Footer Section */}
