@@ -1,7 +1,7 @@
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { MapPin, Phone, Clock, Users } from "lucide-react"
+import { MapPin, Phone, Clock, Users, Facebook } from "lucide-react"
 
 export default function ValenzuelaBranch() {
   return (
@@ -11,8 +11,8 @@ export default function ValenzuelaBranch() {
       {/* Hero Banner */}
       <section className="bg-gradient-to-r from-[#B85450] via-[#4C4B7A] to-[#B85450] text-white py-16 px-4" data-aos="fade-down" data-aos-duration="500">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Valenzuela Campus</h1>
-          <p className="text-xl md:text-2xl mb-6 opacity-90">Innovation and Learning in the Industrial Heart</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Valenzuela Branch</h1>
+          <p className="text-xl md:text-2xl mb-6 opacity-90">YOUR PATH TO SUCCESS STARTS HERE!</p>
           <div className="flex items-center justify-center gap-2 text-lg">
             <MapPin className="h-5 w-5" />
             <span>2nd flr. Gotaco Bldg 2.32 MacArthur Highway, Valenzuela</span>
@@ -20,19 +20,19 @@ export default function ValenzuelaBranch() {
         </div>
       </section>
 
-      {/* Campus Description */}
+      {/* Branch Description */}
       <section className="py-16 px-4" data-aos="fade-up" data-aos-duration="500">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#4C4B7A] mb-6">Experience Our Valenzuela Campus</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#4C4B7A] mb-6">Experience Our Valenzuela Branch</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Located along the busy MacArthur Highway, our Valenzuela campus serves students in one of Metro Manila's
+                Located along the busy MacArthur Highway, our Valenzuela Branch serves students in one of Metro Manila's
                 key industrial areas. This strategic location provides students with excellent opportunities for
                 internships and employment in various industries.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                The campus features modern facilities spread across multiple floors of the Gotaco Building, offering a
+                The branch features modern facilities spread across multiple floors of the Gotaco Building, offering a
                 conducive learning environment with easy access to transportation and commercial establishments.
               </p>
 
@@ -47,8 +47,8 @@ export default function ValenzuelaBranch() {
                 <div className="flex items-center gap-3">
                   <Clock className="h-8 w-8 text-[#B85450]" />
                   <div>
-                    <h3 className="font-semibold text-[#4C4B7A]">Industry</h3>
-                    <p className="text-sm text-gray-600">Partnerships</p>
+                    <h3 className="font-semibold text-[#4C4B7A]">Flexible</h3>
+                    <p className="text-sm text-gray-600">Schedules</p>
                   </div>
                 </div>
               </div>
@@ -114,11 +114,11 @@ export default function ValenzuelaBranch() {
                     <div>
                       <h3 className="font-semibold text-[#4C4B7A] mb-2">Contact Information</h3>
                       <p className="text-gray-700 mb-2">
-                        Phone: (02) 8345-6789
+                        Phone: 8292-7536
                         <br />
-                        Mobile: +63 917 345 6789
+                        Mobile: +63 906 650 8874
                       </p>
-                      <p className="text-gray-700">Email: valenzuela@datamex.edu.ph</p>
+                      <p className="text-gray-700">Email: Dcsa.valenzuela.2010@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -136,6 +136,27 @@ export default function ValenzuelaBranch() {
                         Saturday: 8:00 AM - 4:30 PM
                         <br />
                         Sunday: Closed
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <Facebook className="h-6 w-6 text-[#B85450] mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-[#4C4B7A] mb-2">Facebook Page</h3>
+                      <p className="text-gray-700">
+                        Datamex College of St. Adeline Valenzuela
+                        <a
+                          href="https://www.facebook.com/datamexcollegeofstadelinevalenzuela"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-[#B85450] hover:text-[#4C4B7A] transition-colors text-sm sm:text-base"
+                        >
+                          Follow us on Facebook
+                        </a>
                       </p>
                     </div>
                   </div>

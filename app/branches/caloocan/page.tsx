@@ -15,7 +15,7 @@ export default function CaloocanBranch() {
             Caloocan Branch
           </h1>
           <p className="text-xl md:text-2xl mb-6 opacity-90">
-            YOUR PATH TO SUCCESS STARTS HERE
+            YOUR PATH TO SUCCESS STARTS HERE!
           </p>
           <div className="flex items-center justify-center gap-2 text-lg">
             <MapPin className="h-5 w-5" />
@@ -77,7 +77,7 @@ export default function CaloocanBranch() {
       <section className="py-16 px-4 bg-gray-50" data-aos="fade-up" data-aos-duration="500">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4C4B7A] mb-12">
-            Visit Our Campus
+            Visit Our Branch
           </h2>
           
           <div className="grid lg:grid-cols-2 gap-12">

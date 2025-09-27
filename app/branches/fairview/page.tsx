@@ -68,7 +68,7 @@ export default function FairviewBranch() {
       {/* Map and Contact Info */}
       <section className="py-16 px-4 bg-gray-50" data-aos="fade-up" data-aos-duration="500">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4C4B7A] mb-12">Visit Our Campus</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4C4B7A] mb-12">Visit Our Branch</h2>
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Map */}

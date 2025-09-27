@@ -1,7 +1,7 @@
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { MapPin, Phone, Clock, Users } from "lucide-react"
+import { MapPin, Phone, Clock, Users, Facebook } from "lucide-react"
 
 export default function MeycauayanBranch() {
   return (
@@ -12,7 +12,7 @@ export default function MeycauayanBranch() {
       <section className="bg-gradient-to-r from-[#4C4B7A] via-[#B85450] to-[#4C4B7A] text-white py-16 px-4" data-aos="fade-down" data-aos-duration="500">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Meycauayan Campus</h1>
-          <p className="text-xl md:text-2xl mb-6 opacity-90">Expanding Horizons in Bulacan Province</p>
+          <p className="text-xl md:text-2xl mb-6 opacity-90">YOUR PATH TO SUCCESS STARTS HERE!</p>
           <div className="flex items-center justify-center gap-2 text-lg">
             <MapPin className="h-5 w-5" />
             <span>85 Requito St. Saluysoy, Meycauayan, 3023 Bulacan</span>
@@ -35,14 +35,14 @@ export default function MeycauayanBranch() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#4C4B7A] mb-6">Welcome to Our Meycauayan Campus</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our newest campus in Meycauayan, Bulacan extends quality education beyond Metro Manila, serving students
+                Bulacan extends quality education beyond Metro Manila, serving students
                 in the northern provinces. Located in the growing city of Meycauayan, this campus offers the same high
                 standards of education with the convenience of being closer to home for Bulacan residents.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                The Meycauayan campus features modern facilities designed to provide an excellent learning environment,
+                The Meycauayan branch features modern facilities designed to provide an excellent learning environment,
                 complete with computer laboratories, library resources, and student support services that match our
-                Metro Manila campuses.
+                Metro Manila branches.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
@@ -56,8 +56,8 @@ export default function MeycauayanBranch() {
                 <div className="flex items-center gap-3">
                   <Clock className="h-8 w-8 text-[#B85450]" />
                   <div>
-                    <h3 className="font-semibold text-[#4C4B7A]">Community</h3>
-                    <p className="text-sm text-gray-600">Focused</p>
+                    <h3 className="font-semibold text-[#4C4B7A]">Flexible</h3>
+                    <p className="text-sm text-gray-600">Schedules</p>
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ export default function MeycauayanBranch() {
       {/* Map and Contact Info */}
       <section className="py-16 px-4 bg-gray-50" data-aos="fade-up" data-aos-duration="500">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4C4B7A] mb-12">Visit Our Campus</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#4C4B7A] mb-12">Visit Our Branch</h2>
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Map */}
@@ -83,7 +83,7 @@ export default function MeycauayanBranch() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Meycauayan Campus Location"
+                  title="Meycauayan Branch Location"
                 ></iframe>
               </CardContent>
             </Card>
@@ -115,9 +115,7 @@ export default function MeycauayanBranch() {
                     <div>
                       <h3 className="font-semibold text-[#4C4B7A] mb-2">Contact Information</h3>
                       <p className="text-gray-700 mb-2">
-                        Phone: (044) 456-7890
-                        <br />
-                        Mobile: +63 917 456 7890
+                        Mobile: +63 951 296-5086
                       </p>
                       <p className="text-gray-700">Email: meycauayan@datamex.edu.ph</p>
                     </div>
@@ -137,6 +135,27 @@ export default function MeycauayanBranch() {
                         Saturday: 8:00 AM - 4:00 PM
                         <br />
                         Sunday: Closed
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <Facebook className="h-6 w-6 text-[#B85450] mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-[#4C4B7A] mb-2">Facebook Page</h3>
+                      <p className="text-gray-700">
+                        Datamex College of St. Adeline Meycauyan
+                        <a
+                          href="https://www.facebook.com/datamexcollegeofstadelinemeycauayan"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-[#B85450] hover:text-[#4C4B7A] transition-colors text-sm sm:text-base"
+                        >
+                          Follow us on Facebook
+                        </a>
                       </p>
                     </div>
                   </div>
