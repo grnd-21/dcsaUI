@@ -9,7 +9,7 @@ export default function Footer() {
       <section className="bg-gradient-to-r from-[#B85450] to-[#4C4B7A] text-white py-16 px-4" data-aos="fade-up" data-aos-duration="500">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
-            <Avatar className="w-12 h-12">
+            <Avatar className="w-12 h-12 bg-white">
               <AvatarImage
                 src="/logo.png"
                 alt="Datamex College of Saint Adeline Logo"
@@ -41,8 +41,8 @@ export default function Footer() {
             of the way.
           </p>
 
-          <Button className="bg-transparent border-white text-white hover:bg-white hover:text-[#B85450] py-3 w-full sm:w-auto" variant="outline" >
-            APPLY NOW
+          <Button asChild className="bg-transparent border-white text-white hover:bg-white hover:text-[#B85450] py-3 w-full sm:w-auto" variant="outline" >
+           <a href="#">APPLY NOW</a>
           </Button>
         </div>
       </section>

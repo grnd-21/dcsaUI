@@ -23,8 +23,8 @@ export default function HomePage() {
         <h2 className="text-3xl md:text-6xl font-bold mb-8 leading-tight">
         S.Y. 2025-2026 Applications Are Now Open For College & SHS
         </h2>
-        <Button className="bg-[#B85450] hover:bg-[#A04A46] text-white px-8 py-3 text-sm md:text-lg font-semibold border-white shadow-lg">
-        APPLY TODAY
+        <Button asChild className="bg-[#B85450] hover:bg-[#A04A46] text-white px-8 py-3 text-sm md:text-lg font-semibold border-white shadow-lg">
+        <a href="#">APPLY TODAY</a>
         </Button>
       </div>
       </section>
