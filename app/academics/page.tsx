@@ -12,7 +12,7 @@ export default function Academics() {
 
       <section>
         {/* Hero Section */}
-        <div className="relative bg-[#95312b] text-white py-55 px-4" data-aos="fade-down" data-aos-duration="500">
+        <div className="relative bg-[#95312b] text-white py-37 px-4" data-aos="fade-down" data-aos-duration="500">
           <div className="absolute inset-0">
             <Image
               src="/OurProgram.jpg"
@@ -25,7 +25,7 @@ export default function Academics() {
 
           <div className="relative max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-              Programs We Offer
+              Programs Offerings
             </h2>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function Academics() {
       <section className="py-20 pb-20 px-10 bg-gray-50 mb-3 " data-aos="fade-up" data-aos-duration="500">
         <div className="flex flex-col items-center mx-auto text-center px-4 md:px-0">
           <div className="flex-shrink-0 text-center md:text-left w-full">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold text-[#2c265c] leading-tight pb-4 md:pb-8 md:text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#2c265c] leading-tight pb-4 md:pb-8 md:text-center">
               College Programs
             </h2>
           </div>
@@ -255,7 +255,7 @@ export default function Academics() {
       <section className="py-20 pb-20 px-10 bg-gray-50 mb-3 " data-aos="fade-up" data-aos-duration="500">
         <div className="flex flex-col items-center mx-auto text-center px-4 md:px-0">
           <div className="flex-shrink-0 text-center md:text-left w-full">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold text-[#2c265c] leading-tight pb-4 md:pb-8 md:text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#2c265c] leading-tight pb-4 md:pb-8 md:text-center">
               Senior High School Tracks
             </h2>
           </div>

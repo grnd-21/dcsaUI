@@ -9,7 +9,7 @@ export default function CaloocanBranch() {
       <Navbar />
       
       {/* Hero Banner */}
-      <section className="bg-gradient-to-r from-[#4C4B7A] to-[#B85450] text-white py-16 px-4" data-aos="fade-down" data-aos-duration="500">
+      <section className="bg-gradient-to-r from-[#4C4B7A] to-[#B85450] text-white py-30 px-4" data-aos="fade-down" data-aos-duration="500">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Caloocan Branch
