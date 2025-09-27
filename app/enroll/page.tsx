@@ -4,10 +4,10 @@ import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
 
 const branches = [
-  { name: "Fairview", href: "#fairview" },
-  { name: "Valenzuela", href: "#valenzuela" },
-  { name: "Caloocan", href: "#caloocan" },
-  { name: "Meycauayan", href: "#meycauayan" },
+  { name: "Fairview", href: "https://forms.gle/1dh5AtKi8VzmJZZbA" },
+  { name: "Valenzuela", href: "https://forms.gle/bAMSWmkotu7vmBkAA" },
+  { name: "Caloocan", href: "https://forms.gle/yepcF7Pme3ysa33g7" },
+  { name: "Meycauayan", href: "https://forms.gle/iahTg5GL56nSdPiUA" },
 ];
 
 export default function Enroll() {
@@ -31,35 +31,6 @@ export default function Enroll() {
           />
         </div>
 
-        {/* Diagonal line pattern overlay to match reference */}
-        <div className="absolute inset-0 opacity-30">
-          <svg
-            className="w-full h-full"
-            viewBox="0 0 400 200"
-            preserveAspectRatio="none"
-          >
-            <defs>
-              <pattern
-                id="diagonalLines"
-                patternUnits="userSpaceOnUse"
-                width="40"
-                height="40"
-                patternTransform="rotate(45)"
-              >
-                <line
-                  x1="0"
-                  y1="0"
-                  x2="0"
-                  y2="40"
-                  stroke="white"
-                  strokeWidth="1"
-                  opacity="0.3"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#diagonalLines)" />
-          </svg>
-        </div>
       </section>
 
       {/* Main content */}
@@ -68,14 +39,14 @@ export default function Enroll() {
           {/* Left side instructions */}
           <div className="lg:col-span-2 space-y-8 my-auto">
             <div className="space-y-4" data-aos="fade-right" data-aos-duration="500">
-              <p className="text-red-700 text-m md:text-2xl font-serif leading-relaxed">
+              <p className="text-red-700 text-m md:text-2xl font-semibold">
                 To enroll, please fill out the Google Form for your chosen
                 branch.
               </p>
-              <p className="text-red-700 text-m md:text-2xl font-serif leading-relaxed">
+              <p className="text-red-700 text-m md:text-2xl font-semibold">
                 Click on the branch you want, and you will be taken to the form.
               </p>
-              <p className="text-red-700 text-m md:text-2xl font-serif leading-relaxed">
+              <p className="text-red-700 text-m md:text-2xl font-semibold">
                 If you have any questions, you can message us on our Facebook
                 page or call us.
               </p>
@@ -87,13 +58,13 @@ export default function Enroll() {
             data-aos-duration="500"
           >
             {branches.map((branch) => (
-              <Button
+                <Button
                 key={branch.name}
                 variant="default"
                 size="lg"
-                className="w-full h-20 bg-slate-800 hover:bg-slate-700 text-white text-2xl font-semibold shadow-lg rounded-sm"
+                className="w-full h-20 bg-slate-800 hover:bg-[#B85450] text-white text-2xl font-semibold shadow-lg rounded-sm"
                 asChild
-              >
+                >
                 <a href={branch.href}>{branch.name}</a>
               </Button>
             ))}
