@@ -1,7 +1,7 @@
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
 import { Card, CardContent } from "@/components/ui/card"
-import { MapPin, Phone, Clock, Users } from "lucide-react"
+import { MapPin, Phone, Clock, Users, Facebook } from "lucide-react"
 
 export default function FairviewBranch() {
   return (
@@ -11,8 +11,8 @@ export default function FairviewBranch() {
       {/* Hero Banner */}
       <section className="bg-gradient-to-r from-[#B85450] to-[#4C4B7A] text-white py-16 px-4" data-aos="fade-down" data-aos-duration="500">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Fairview Campus</h1>
-          <p className="text-xl md:text-2xl mb-6 opacity-90">Your Gateway to Excellence in Quezon City</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Fairview Branch</h1>
+          <p className="text-xl md:text-2xl mb-6 opacity-90">YOUR PATH TO SUCCESS STARTS HERE</p>
           <div className="flex items-center justify-center gap-2 text-lg">
             <MapPin className="h-5 w-5" />
             <span>85 Commonwealth Ave, Quezon City, 1118 Metro Manila</span>
@@ -20,20 +20,20 @@ export default function FairviewBranch() {
         </div>
       </section>
 
-      {/* Campus Description */}
+      {/* Branch Description */}
       <section className="py-16 px-4" data-aos="fade-up" data-aos-duration="500">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#4C4B7A] mb-6">Welcome to Our Fairview Campus</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#4C4B7A] mb-6">Welcome to Our Fairview Branch</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Located in the heart of Quezon City, our Fairview campus serves as the flagship location of Datamex
-                College of Saint Adeline. This modern facility offers state-of-the-art classrooms, computer
+                Located at the Quezon City, Fairview branch serves as the flagship location of Datamex
+                College of Saint Adeline. This modern facility offers a minimalist classrooms, computer
                 laboratories, and student amenities designed to foster academic excellence and personal growth.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
                 With easy access to public transportation and surrounded by vibrant commercial areas, our Fairview
-                campus provides students with the perfect blend of academic focus and urban convenience.
+                Branch provides students with the perfect blend of academic focus and urban convenience.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
@@ -82,7 +82,7 @@ export default function FairviewBranch() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Fairview Campus Location"
+                  title="Fairview Branch Location"
                 ></iframe>
               </CardContent>
             </Card>
@@ -114,9 +114,7 @@ export default function FairviewBranch() {
                     <div>
                       <h3 className="font-semibold text-[#4C4B7A] mb-2">Contact Information</h3>
                       <p className="text-gray-700 mb-2">
-                        Phone: (02) 8123-4567
-                        <br />
-                        Mobile: +63 917 123 4567
+                        Phone: 8921-83-50
                       </p>
                       <p className="text-gray-700">Email: fairview@datamex.edu.ph</p>
                     </div>
@@ -131,11 +129,32 @@ export default function FairviewBranch() {
                     <div>
                       <h3 className="font-semibold text-[#4C4B7A] mb-2">Office Hours</h3>
                       <p className="text-gray-700">
-                        Monday - Friday: 8:00 AM - 6:00 PM
+                        Monday - Friday: 6:00 AM - 6:00 PM
                         <br />
-                        Saturday: 8:00 AM - 4:00 PM
+                        Saturday: 7:00 AM - 4:00 PM
                         <br />
                         Sunday: Closed
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                     <Facebook className="h-6 w-6 text-[#B85450] mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-[#4C4B7A] mb-2">Facebook Page</h3>
+                      <p className="text-gray-700">
+                        Datamex College of St. Adeline
+                        <a
+                          href="https://www.facebook.com/datamexcollegeofstadeline"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-[#B85450] hover:text-[#4C4B7A] transition-colors text-sm sm:text-base"
+                        >
+                          Follow us on Facebook
+                        </a>
                       </p>
                     </div>
                   </div>
