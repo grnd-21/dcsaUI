@@ -281,7 +281,7 @@ export default function Academics() {
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <div className="w-full h-full rounded-full border-4 border-[#95312b] overflow-hidden">
                   <img
-                    src="/ABM.JPG"
+                    src="/ABM.jpg"
                     alt="ABM Track"
                     className="w-full h-full object-cover"
                   />
@@ -304,7 +304,7 @@ export default function Academics() {
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <div className="w-full h-full rounded-full border-4 border-[#2c265c] overflow-hidden">
                   <img
-                    src="/GAS.JPG"
+                    src="/GAS.jpg"
                     alt="GAS Track"
                     className="w-full h-full object-cover"
                   />
@@ -329,7 +329,7 @@ export default function Academics() {
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <div className="w-full h-full rounded-full border-4 border-[#95312b] overflow-hidden">
                   <img
-                    src="/HUMSS.JPG"
+                    src="/HUMSS.jpg"
                     alt="HUMSS Track"
                     className="w-full h-full object-cover"
                   />
