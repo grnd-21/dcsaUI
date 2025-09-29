@@ -7,8 +7,10 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 
+import { ContactUsDialog } from "@/components/ui/contactus";
+
 const faqData = [
-   // Admissions & Enrollment
+  // Admissions & Enrollment
   {
     question: "What are the admission requirements?",
     answer: "Requirements include application form, school card, birth certificate (NSO/PSA), and ID photos. Full details are in the Enroll section.",
@@ -112,13 +114,12 @@ export default function FAQPage() {
                 Can't find what you're looking for? Our support team is here to
                 help.
               </p>
-              <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25">
-                Contact Support
-              </button>
+                <ContactUsDialog />
             </div>
           </div>
         </div>
       </main>
+
 
       {/* Footer Section */}
       <Footer />
