@@ -42,7 +42,7 @@ export default function Footer() {
           </p>
 
           <Button asChild className="bg-transparent border-white text-white hover:bg-white hover:text-[#B85450] py-3 w-full sm:w-auto" variant="outline" >
-           <a href="/enroll">APPLY NOW</a>
+           <a href="enroll">APPLY NOW</a>
           </Button>
         </div>
       </section>

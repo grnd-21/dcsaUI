@@ -27,7 +27,7 @@ export default function HomePage() {
             asChild
             className="bg-[#B85450] hover:bg-[#A04A46] text-white px-8 py-3 text-sm md:text-lg font-semibold border-white shadow-lg cursor-pointer"
             >
-            <a href="/enroll">APPLY TODAY</a>
+            <a href="enroll">APPLY TODAY</a>
             </Button>
         </div>
       </section>
@@ -105,7 +105,7 @@ export default function HomePage() {
 
             <div className="">
               <Button asChild className="bg-[#4C4B7A] hover:bg-[#3A3A6A] text-white px-8 py-3 text-lg font-semibold shadow-lg w-full sm:w-auto cursor-pointer">
-                <a href="/academics">EXPLORE MORE</a>
+                <a href="academics">EXPLORE MORE</a>
               </Button>
             </div>
           </div>
