@@ -69,7 +69,7 @@ export default function ContactUs() {
                     <h3 className="text-lg sm:text-xl font-bold text-[#4C4B7A]">Connect</h3>
                   </div>
                   <a
-                    href="https://www.facebook.com/CSAFairview"
+                    href="https://www.facebook.com/datamexcollegeofstadeline"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#B85450] hover:text-[#4C4B7A] transition-colors text-sm sm:text-base"
